@@ -1,0 +1,65 @@
+#chatclick{
+    background-color:#F60082;
+    padding:10px;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#chatclick:hover{
+    cursor:pointer;
+}
+#chatbox{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:400px;
+    background-color:white;
+    border:1px solid #F60082;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#textwrap{
+    border-bottom:1px solid #F60082;
+}
+input[type=text],textarea{
+    border:none !important;
+}
+input:focus,textarea:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+#chatbanner{
+    background-color:#F60082;
+    padding:10px 20px;
+}
+#chatbox > form{
+    padding:10px;
+}
+#btnsub{
+    background-color:#F60082;
+    color:white;
+    border-color:#F60082;
+    width:100%;
+}
+#chatcross{
+    font-size:30px;
+    color:white;
+    position:absolute;
+    right:20px;
+    top:12px;
+}
+#chatcross:hover{
+    cursor:pointer;
+}
+#chatbox{
+    display:none;
+}
+#wallpaper{
+    height:800px;
+    width:100%;
+}
+
+
+
